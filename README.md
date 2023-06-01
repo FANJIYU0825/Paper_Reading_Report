@@ -3,7 +3,9 @@ Here there my name is Tony.This repo is my lab paper reading report,speaker is m
 ## 1. Open-Domain Aspect-Opinion Co-Mining with Double-Layer Span Extraction (KDD 2022)
 ![img](fig/ODAO.jpg)
 ### Introduction
-1. Aspect & Opinion Extraction use the two layer 
-2. First layer only extract single Aspect or Opinion
-3. Second layer extract the pair of Aspect & Opinion
-4. Self-augmentate the train data that predict reslut is correct data
+1. Using the rule base parser tree to label where Apsect & Opinion span possible in a sentence
+2. Aspect & Opinion Extraction use the two layer 
+3. First layer only extract single Aspect or Opinion
+4. Second layer extract the pair of Aspect & Opinion
+5. Loss is the cross Entropy
+6. Self-augmentate the train data that predict reslut is correct data
