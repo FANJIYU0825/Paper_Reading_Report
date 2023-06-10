@@ -10,3 +10,5 @@ Here there my name is Tony.This repo is my lab paper reading report,speaker is m
 5. So here we will get fourth model
 6. Loss is the cross Entropy & We also calculate correlation with each other model output
 7. Self-train: Use the train data that is predict correct (in four model)
+##3. PromptDA: Label-guided Data Augmentation for Prompt-based Few Shot Learners
+![img](fig/PromptDA_Label.jpg)
