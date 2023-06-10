@@ -7,5 +7,6 @@ Here there my name is Tony.This repo is my lab paper reading report,speaker is m
 2. Aspect & Opinion Extraction use the two layer 
 3. First layer only extract single Aspect or Opinion
 4. Second layer extract the pair of Aspect & Opinion
-5. Loss is the cross Entropy
-6. Self-augmentate the train data that predict reslut is correct data
+5. So here we will get fourth model
+6. Loss is the cross Entropy & We also calculate correlation with each other model output
+7. Self-train: Use the train data that is predict correct (in four model)
