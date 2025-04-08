@@ -21,3 +21,7 @@ My name is CHI YU. The repo is my paper reading report.
 
 ## 3. PromptDA: Label-guided Data Augmentation for Prompt-based Few-Shot Learners
 ![img](fig/PromptDA_Label.jpg)
+### Introduction
+The goal of the paper is to augment the verbalizer and label word. Because in the traditional prompt learning need the manual to design the label word and verbalizer
+1. Label augmentation
+
