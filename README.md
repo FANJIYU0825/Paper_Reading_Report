@@ -19,7 +19,7 @@ My name is CHI YU. The repo is my paper reading report.
 
 8. Self-training is applied: only training data predicted correctly by all four models is reused for further training.
 
-## 3. PromptDA: Label-guided Data Augmentation for Prompt-based Few-Shot Learners
+## 2. PromptDA: Label-guided Data Augmentation for Prompt-based Few-Shot Learners
 ![img](fig/PromptDA_Label.jpg)
 ### Introduction
 The goal of the paper is to augment the verbalizer (label word), because in the traditional prompt learning, it needs manual effort to design the verbalizer(label word).
