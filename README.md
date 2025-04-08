@@ -22,6 +22,8 @@ My name is CHI YU. The repo is my paper reading report.
 ## 3. PromptDA: Label-guided Data Augmentation for Prompt-based Few-Shot Learners
 ![img](fig/PromptDA_Label.jpg)
 ### Introduction
-The goal of the paper is to augment the verbalizer and label word. Because in the traditional prompt learning need the manual to design the label word and verbalizer
-1. Label augmentation
+The goal of the paper is to augment the verbalizer (label word), because in the traditional prompt learning, it needs manual effort to design the verbalizer(label word).
+1. Label augmentation: Search multiple label words and select the top-k with high probability for the verbalizer.
+2. Augmented Prompt Learning: We get multiple training data to help us train the model.
+3. Prediction in Prompt learning: Input the sentence including a masked sentence, and put it into the model. The predicted token for the [MASK] determines the corresponding category for classification.
 
