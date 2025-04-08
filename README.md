@@ -26,4 +26,5 @@ The goal of the paper is to augment the verbalizer (label word), because in the 
 1. Label augmentation: Search multiple label words and select the top-k with high probability for the verbalizer.
 2. Augmented Prompt Learning: We get multiple training data to help us train the model.
 3. Prediction in Prompt learning: Input the sentence including a masked sentence, and put it into the model. The predicted token for the [MASK] determines the corresponding category for classification.
-
+## 3. PIEClass_ Weakly-Supervised Text Classification with Prompting and Noise-Robust Iterative Ensemble Training
+![img](fig/PIEclass.png)
