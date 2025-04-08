@@ -3,13 +3,21 @@ My name is CHI YU. The repo is my paper reading report.
 ## 1. Open-Domain Aspect-Opinion Co-Mining with Double-Layer Span Extraction (KDD 2022)
 ![img](fig/ODAO.jpg)
 ### Introduction
-1. Using the rule-based parser tree to label where Aspect & Opinion spans are possible in a sentence(Weak Label generator)
-2. Aspect & Opinion Extraction uses the two-layer 
-3. First layer only extract a single Aspect or Opinion
-4. Second layer extract the pair of Aspect & Opinion
-5. Use the first and second layer for cross-validation
-6. Loss is the cross Entropy, & Calculate correlation with each of the model outputs
-7. Self-train: Use the train data that is predicted correctly (in four models)
+1. Weak Label Generator: A rule-based parse tree is used to generate weak labels, identifying potential Aspect and Opinion spans within a sentence.
+
+2. Aspect & Opinion Extraction is performed using a two-layer span extraction model.
+
+3. The first layer extracts individual Aspects or Opinions.
+
+4. The second layer extracts Aspect-Opinion pairs.
+
+5. The outputs of the first and second layers are used for cross-validation.
+
+6. Cross-entropy loss is used as the training objective.
+
+7. The model calculates correlation between outputs from different layers.
+
+8. Self-training is applied: only training data predicted correctly by all four models is reused for further training.
 
 ## 3. PromptDA: Label-guided Data Augmentation for Prompt-based Few-Shot Learners
 ![img](fig/PromptDA_Label.jpg)
